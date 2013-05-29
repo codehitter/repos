@@ -105,7 +105,7 @@ for ($i = 1; $i < count($found); $i++) {
             }
       } else {
             $consecutive = "";
-			$newgit_test;
+			$newgit_test1;
             $j = 0;
       }
 }
