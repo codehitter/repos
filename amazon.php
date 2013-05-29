@@ -97,7 +97,7 @@ for ($i = 1; $i < count($found); $i++) {
                   if ($count == $nwords)
                         break;
                   else{
-                       // echo $i.'<br>';
+                       // echo $i.'<br>'.$j;
                         $consecutive = "";
                         $i=$pointer;
                         $j=0;
@@ -105,6 +105,7 @@ for ($i = 1; $i < count($found); $i++) {
             }
       } else {
             $consecutive = "";
+			$newgit_test;
             $j = 0;
       }
 }
